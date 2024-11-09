@@ -24,7 +24,7 @@
     /* custom sizes*/
     --border-radius: 2rem;
     --card-border-radius: 1rem;
-    --btn-padding: 0.7rem 1.2rem;
+    --btn-padding: 0.9rem 1.2rem;
     --search-padding: 0.6rem 2rem;
     --card-padding: 1rem;
 
@@ -55,6 +55,12 @@ body{
 
 img{
     display: block;
+    height: 100%;
+    width: 100%;
+}
+.profile-photo img{
+    /* display: block; */
+    height: 100%;
     width: 100%;
 }
 
@@ -229,7 +235,7 @@ main .container .left .profile{
     margin: 1rem 0;
     width: 100%;
     text-align: center;
-    padding: 0.5rem 0;
+    padding: var(--btn-padding);
 }
 
 /* NOTIFICATION POPUP */
@@ -372,9 +378,9 @@ main .container .left .profile{
 .middle .feed .photo{
     border-radius: var(--card-border-radius);
     overflow: hidden;
+    height: 650px;
     margin: 0.7rem 0;
 }
-
 
 
 .middle .feed .action-buttons{
