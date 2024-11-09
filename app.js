@@ -102,9 +102,9 @@ document.addEventListener('click', (e) => {
 messagesNotification.addEventListener('click', () => {
     messages.style.boxShadow = '0 0 1rem var(--color-primary)';
     messagesNotification.querySelector('.notification-count').style.display = 'none';
-    setTimeout(() => {
+    setTimeout(() => { 
         messages.style.boxShadow = 'none';
-    }, 600);
+    }, 2000);
 });
 
 // Message search functionality
@@ -120,3 +120,15 @@ const searchMessage = () => {
     });
 };
 messageSearch.addEventListener('keyup', searchMessage);
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------- THEME CUSTOMIZATION -------------
